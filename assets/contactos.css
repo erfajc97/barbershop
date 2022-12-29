@@ -162,3 +162,27 @@ td,th{
     padding: 10px 25px;
     border-radius: 10px;
 }
+
+@media screen and (max-width:1580px) {
+
+    h1 {
+        margin-left: 0;
+    }
+
+    nav {
+
+        margin-left: 0;
+    }
+
+    nav li {
+        display: flex;
+        font-size: 15px;
+        margin-left: 5rem;
+        margin-bottom: 1rem;
+
+    }
+
+
+
+
+}
