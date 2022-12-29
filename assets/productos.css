@@ -45,6 +45,11 @@ nav  li{
 
 }
 
+.menu{
+    display: none;
+}
+
+
 nav a{
     color: black;
     text-decoration: none;
@@ -139,7 +144,7 @@ footer{
             margin-left: 0;
         }
     
-        nav {
+        /* nav {
     
             margin-left: 0;  
         }
@@ -150,7 +155,14 @@ footer{
             margin-left: 5rem;
             margin-bottom: 1rem;
     
-        }
+        } */
+
+    .barrita{
+        display: none;
+    }
+
+   
+
 
 
     .products {
@@ -169,14 +181,14 @@ footer{
     background-color: black;
     }
 
-    .products li {
-        border-color: #c78c19;
 
-    }
 
     footer{
         background-color: rgba(0, 0, 0, 0.198);
+
     }
 
+
+  
 
 }

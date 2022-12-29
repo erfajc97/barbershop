@@ -169,7 +169,7 @@ td,th{
         margin-left: 0;
     }
 
-    nav {
+    /* nav {
 
         margin-left: 0;
     }
@@ -179,7 +179,14 @@ td,th{
         font-size: 15px;
         margin-left: 5rem;
         margin-bottom: 1rem;
+    } */
+
+    .barrita {
+        display: none;
     }
+    
+
+
 
     main {
         width: 80%;
@@ -203,7 +210,7 @@ td,th{
     }
 
     .containerButton{
-        width: 350px;
+        width: 100%;
         margin: 0 ;
 
     }

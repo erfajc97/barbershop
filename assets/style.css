@@ -66,6 +66,9 @@ nav li:hover {
     text-decoration: underline;
 }
 
+
+
+
 main{
 
     background:linear-gradient(#fefefe, #888888);
@@ -208,16 +211,17 @@ footer img{
 
 
 @media screen and (max-width:1580px){
-    nav, .diferenciales, h1 , h1 img,  h3{
+     .diferenciales, h1 , h1 img,  h3{
         margin-left: 0;
     }
     body{
         margin-left: 0;
+        
     }
     h1 img{
         width: 70%;
     }
-    nav {
+    /* nav {
         margin: 0;
     }
 
@@ -226,7 +230,57 @@ footer img{
         font-size: 18px;
         margin: 40px 0 1rem 4rem ;
         
+    } */
+
+  
+
+    .barrita {
+        display: none;
     }
+
+    /* .menu{
+        
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        
+        
+    }
+
+    .menu img{
+        width: 50px;
+        height: 50px;
+        
+    }
+
+    .menu ul{
+       
+        position: absolute;
+        top: 9.5rem;
+        height: 50%;
+        background-color: rgba(0, 255, 255, 0.082);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 8px rgba(0,0,0);
+    }
+    .menu li{
+        margin: 4rem auto;
+        font-size: 30px;
+        list-style-type: none;
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
+        border-radius: 20px;
+        
+    } */
+
+
 
     .banner{
         
