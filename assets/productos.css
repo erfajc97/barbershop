@@ -71,8 +71,13 @@ main{
     margin: 1.5rem 0 1.5rem 25rem;
     gap: 3rem;
     text-align: center;
+    padding: 2rem;
 
 }
+/* .products img{
+    width: 80%;
+    margin: 0 auto;
+} */
 
 
 
@@ -160,5 +165,11 @@ footer{
         background-color: rgba(0, 0, 0, 0.198);
     }
 
+        .products img{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-color: black;
+    }
 
 }
