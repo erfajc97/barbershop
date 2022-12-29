@@ -159,17 +159,24 @@ footer{
         flex-direction: column;
         margin: 2rem auto;
         padding: 1rem;
+       
+    }
+
+    .products img{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: black;
+    }
+
+    .products li {
+        border-color: #c78c19;
+
     }
 
     footer{
         background-color: rgba(0, 0, 0, 0.198);
     }
 
-        .products img{
-        width: 80%;
-        margin: 0 auto;
-        border-radius: 50%;
-        background-color: black;
-    }
 
 }
