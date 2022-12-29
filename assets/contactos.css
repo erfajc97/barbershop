@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,200;16..144,400;16..144,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: 'Montagu Slab', serif;
+}
+img {
+    box-shadow: 5px 8px 12px rgba(0, 0, 0);
+    border-radius: 10px;
+}
+
+header {
+
+    background-color: lightgray;
+    display: flex;
+    padding: 2rem;
+}
+
+h1 {
+    margin-left: 9rem;
+}
+
+nav {
+    margin-left: 21rem;
+    margin-top: 8rem;
+}
+
+nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 1.5rem;
+
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #c78c19;
+}
+
+
+nav li:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+
+footer {
+    text-align: center;
+    background: url(./imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main{
+    width: 500px;
+    margin:  3rem 12rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form p{
+    font-size: 15px;
+    margin: 0 0 10px;
+
+}
+
+form input{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+textarea{
+    margin: 0 0 20px;
+    padding: 10px 15px;
+}
+
+/* .checkbox label{
+    font-size: 12px;
+   
+} */
+
+.horario{
+    margin-bottom: 1rem;
+}
+
+.submit{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c78c19;
+    border: none;
+    box-shadow: 5px 7px 10px rgba(0,0,0);
+    border-radius: 7px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: 1s all;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+.select-contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.select-contact input{
+    margin: 0 0.5rem;
+}
+table{
+    margin: 40px;
+    
+}
+thead{
+    background-color: #555555;
+    color: #fff;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
