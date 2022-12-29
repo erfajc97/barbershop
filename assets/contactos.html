@@ -25,23 +25,26 @@
         </header>
         <main>
             
-           <form>
+            <div class="formu">
+
+                
+                <form>
             <label for="nameNLastname">Name and Lastname</label>
             <input type="text" id="nameNLastname" placeholder="Name and Lastname" required>
             
             <label for="email">E-MAIL</label>
             <input type="email" id="email" placeholder="Your e-mail: erfa@gmail.com" required>
-
+            
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" placeholder="(+xx) xxxx xxxx" required>
-
+            
             <label for="message"></label>
             <textarea name="" id="message" cols="10" rows="10" required></textarea>
-
+            
             <div class="contactos-container">
                 <p>Como le gustaria que lo contactemos?</p>
                 <div class="select-contact"> 
-
+                    
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">E-mail</label>
                     
                     
@@ -59,28 +62,32 @@
                         <option >Noche</option>
                     </select>
                 </div>
-
+                
                 <div class="checkbox">
-
+                    
                     <label> <input type="checkbox" checked> Le gustaria recibir novedades de la Baerberia Alura? </label>
                     
                 </div>
             </div>
+            
+            
+        </form>
+        
+    </div>
 
-
-            <input type="submit" value="Submit" class="submit" >
-           </form>
-
-           <table>
-            <thead> 
-                <tr>
+        <div class="horarios">
+            
+            
+            <table>
+                <thead> 
+                    <tr>
                     <th>Dia</th>
                     <th>Horario</th>
                 </tr>
-
+                
             </thead>
             <tbody>
-
+                
                 <tr>
                     <td>Lunes</td>
                     <td>08:00- 21:00</td>
@@ -94,8 +101,10 @@
                     <td>08:00- 21:00</td>
                 </tr>
             </tbody>
-           </table>
-          
+        </table>
+        
+        <input type="submit" value="Submit" class="submit" >
+    </div>
 
         </main>
         <footer>
