@@ -235,16 +235,20 @@ footer img{
         display: none;
     }
     /* Display none */
-    .container-menu{
-        display: block;
+    .container-menu {
         padding: 1rem;
-       
+        display: block;
+        position: relative;
+
     }
 
 
     .menu-button {
         display: block;
         cursor: pointer;
+        position: absolute;
+        right: 0;
+        bottom: 0rem;
     }
 
     .menu {

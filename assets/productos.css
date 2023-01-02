@@ -173,17 +173,21 @@ footer{
         display: none;
     }
 
+.container-menu {
+    padding: 1rem;
+    display: block;
+    position: relative;
 
-    .container-menu {
-        padding: 1rem;
-        display: block;
-    }
+}
 
 
-    .menu-button {
-        display: block;
-        cursor: pointer;
-    }
+.menu-button {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0rem;
+}
 
     .menu {
         display: none;

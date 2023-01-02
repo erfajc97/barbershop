@@ -200,6 +200,7 @@ td,th{
     .container-menu {
         padding: 1rem;
         display: block;
+        position: relative;
 
     }
 
@@ -207,6 +208,9 @@ td,th{
     .menu-button {
         display: block;
         cursor: pointer;
+        position: absolute;
+        right: 0;
+        bottom: 0rem;
     }
 
     .menu {
